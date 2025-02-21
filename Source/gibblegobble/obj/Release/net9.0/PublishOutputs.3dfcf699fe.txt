@@ -1,0 +1,5 @@
+C:\Users\gerbe\GibbleGobbleV0.1.0\gibblegobble.exe
+C:\Users\gerbe\GibbleGobbleV0.1.0\gibblegobble.dll
+C:\Users\gerbe\GibbleGobbleV0.1.0\gibblegobble.deps.json
+C:\Users\gerbe\GibbleGobbleV0.1.0\gibblegobble.runtimeconfig.json
+C:\Users\gerbe\GibbleGobbleV0.1.0\gibblegobble.pdb

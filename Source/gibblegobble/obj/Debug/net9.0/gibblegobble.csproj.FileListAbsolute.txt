@@ -1,0 +1,14 @@
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\bin\Debug\net9.0\gibblegobble.exe
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\bin\Debug\net9.0\gibblegobble.deps.json
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\bin\Debug\net9.0\gibblegobble.runtimeconfig.json
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\bin\Debug\net9.0\gibblegobble.dll
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\bin\Debug\net9.0\gibblegobble.pdb
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\obj\Debug\net9.0\gibblegobble.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\obj\Debug\net9.0\gibblegobble.AssemblyInfoInputs.cache
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\obj\Debug\net9.0\gibblegobble.AssemblyInfo.cs
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\obj\Debug\net9.0\gibblegobble.csproj.CoreCompileInputs.cache
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\obj\Debug\net9.0\gibblegobble.dll
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\obj\Debug\net9.0\refint\gibblegobble.dll
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\obj\Debug\net9.0\gibblegobble.pdb
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\obj\Debug\net9.0\gibblegobble.genruntimeconfig.cache
+C:\Users\gerbe\source\repos\gibblegobble\gibblegobble\obj\Debug\net9.0\ref\gibblegobble.dll

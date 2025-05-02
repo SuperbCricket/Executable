@@ -1,0 +1,10 @@
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\bin\Debug\BulkFileRenamer(.NET).exe.config
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\bin\Debug\BulkFileRenamer(.NET).exe
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\bin\Debug\BulkFileRenamer(.NET).pdb
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\obj\Debug\BulkFileRenamer(.NET).csproj.AssemblyReference.cache
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\obj\Debug\BulkFileRenamer_.NET_.Form1.resources
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\obj\Debug\BulkFileRenamer_.NET_.Properties.Resources.resources
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\obj\Debug\BulkFileRenamer(.NET).csproj.GenerateResource.cache
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\obj\Debug\BulkFileRenamer(.NET).csproj.CoreCompileInputs.cache
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\obj\Debug\BulkFileRenamer(.NET).exe
+C:\Users\gerbe\source\repos\BulkFileRenamer(.NET)\obj\Debug\BulkFileRenamer(.NET).pdb

@@ -14,8 +14,6 @@ namespace BulkFileRenamer_.NET_
     {
         private List<string> FilePathList = new List<string>();
         private List<string> NameList = new List<string>();
-        private int StartCharIndex;
-        private int EndCharIndex;
         public Form1()
         {
             InitializeComponent();
@@ -68,7 +66,22 @@ namespace BulkFileRenamer_.NET_
         {
             string name = textBox2.Text.Trim();
 
-            if (!string.IsNullOrWhiteSpace(name) && !NameList.Contains(name))
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                MessageBox.Show("The string cannot be empty or whitespace.");
+                return;
+            }
+
+            if (name.Contains(" "))
+            {
+                var result = MessageBox.Show("The string contains spaces. Do you want to add it anyway?", "Warning", MessageBoxButtons.YesNo);
+                if (result == DialogResult.No)
+                {
+                    return;
+                }
+            }
+
+            if (!NameList.Contains(name))
             {
                 NameList.Add(name);
                 UpdateNameListBox();
@@ -82,6 +95,86 @@ namespace BulkFileRenamer_.NET_
                 listBox2.Items.Clear();
                 listBox2.Items.AddRange(NameList.ToArray());
             }
+        }
+
+        private void buttonRun_Click(object sender, EventArgs e)
+        {
+            // Step 1: Validate inputs
+            if (FilePathList.Count == 0)
+            {
+                MessageBox.Show("No file paths provided.");
+                return;
+            }
+
+            if (NameList.Count == 0)
+            {
+                MessageBox.Show("No strings to remove provided.");
+                return;
+            }
+
+            // Get numeric values
+            int startCharsToRemove = (int)numericUpDown1.Value;
+            int endCharsToRemove = (int)numericUpDown2.Value;
+
+            // Step 2: Process each file path
+            foreach (string directoryPath in FilePathList)
+            {
+                if (!System.IO.Directory.Exists(directoryPath))
+                {
+                    MessageBox.Show($"Directory does not exist: {directoryPath}");
+                    continue;
+                }
+
+                // Get all files in the directory
+                string[] files = System.IO.Directory.GetFiles(directoryPath);
+
+                foreach (string filePath in files)
+                {
+                    string fileName = System.IO.Path.GetFileName(filePath);
+                    string directory = System.IO.Path.GetDirectoryName(filePath);
+
+                    string fileExtension = System.IO.Path.GetExtension(fileName);
+                    string fileNameWithoutExtension = System.IO.Path.GetFileNameWithoutExtension(fileName);
+
+                    // Step 3: Remove characters from the beginning and end
+                    if (fileNameWithoutExtension.Length > startCharsToRemove + endCharsToRemove)
+                    {
+                        // Remove characters from the beginning
+                        fileNameWithoutExtension = fileNameWithoutExtension.Substring(startCharsToRemove);
+
+                        // Remove characters from the end
+                        fileNameWithoutExtension = fileNameWithoutExtension.Substring(0, fileNameWithoutExtension.Length - endCharsToRemove);
+                    }
+                    else
+                    {
+                        MessageBox.Show($"File name '{fileNameWithoutExtension}' is too short to remove {startCharsToRemove} characters from the beginning and {endCharsToRemove} characters from the end.");
+                        continue;
+                    }
+
+                    // Recombine the file name with its extension
+                    fileName = fileNameWithoutExtension + fileExtension;
+
+                    // Step 4: Remove strings from NameList
+                    foreach (string nameToRemove in NameList)
+                    {
+                        fileName = fileName.Replace(nameToRemove, string.Empty);
+                    }
+
+                    // Step 5: Rename the file
+                    string newFilePath = System.IO.Path.Combine(directory, fileName);
+
+                    try
+                    {
+                        System.IO.File.Move(filePath, newFilePath);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error renaming file {filePath}: {ex.Message}");
+                    }
+                }
+            }
+
+            MessageBox.Show("File renaming completed!");
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)

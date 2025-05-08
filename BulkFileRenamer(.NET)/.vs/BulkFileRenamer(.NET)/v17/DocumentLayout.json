@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gerben\\GitProjecten\\Executable\\BulkFileRenamer(.NET)\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Gerben\\GitProjecten\\Executable\\Source\\BulkFileRenamer(.NET)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4533A0B-066F-4DA0-B723-ECC3C8825C0B}|BulkFileRenamer(.NET).csproj|c:\\users\\gerben\\gitprojecten\\executable\\source\\bulkfilerenamer(.net)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4533A0B-066F-4DA0-B723-ECC3C8825C0B}|BulkFileRenamer(.NET).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4533A0B-066F-4DA0-B723-ECC3C8825C0B}|BulkFileRenamer(.NET).csproj|C:\\Users\\Gerben\\GitProjecten\\Executable\\Source\\BulkFileRenamer(.NET)\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4533A0B-066F-4DA0-B723-ECC3C8825C0B}|BulkFileRenamer(.NET).csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4533A0B-066F-4DA0-B723-ECC3C8825C0B}|BulkFileRenamer(.NET).csproj|C:\\Users\\Gerben\\GitProjecten\\Executable\\Source\\BulkFileRenamer(.NET)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4533A0B-066F-4DA0-B723-ECC3C8825C0B}|BulkFileRenamer(.NET).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,42 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Gerben\\GitProjecten\\Executable\\Source\\BulkFileRenamer(.NET)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Gerben\\GitProjecten\\Executable\\Source\\BulkFileRenamer(.NET)\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAqwJ0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:16:00.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Gerben\\GitProjecten\\Executable\\Source\\BulkFileRenamer(.NET)\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Gerben\\GitProjecten\\Executable\\Source\\BulkFileRenamer(.NET)\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAqwKEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T09:01:39.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Gerben\\GitProjecten\\Executable\\Source\\BulkFileRenamer(.NET)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\gerbe\\source\\repos\\BulkFileRenamer(.NET)\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\gerbe\\source\\repos\\BulkFileRenamer(.NET)\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:10:18.987Z"
             }
           ]
         }
